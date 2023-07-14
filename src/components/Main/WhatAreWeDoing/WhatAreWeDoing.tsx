@@ -1,6 +1,6 @@
 "use client"
 
-import css from "./whatAreWeDoing.module.css";
+import css from "./WhatAreWeDoing.module.css";
 
 const developers = [
     {number: "1", title: "Developer", description: "C#, Java, Node.js, Python, JS"},

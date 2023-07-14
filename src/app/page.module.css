@@ -1,3 +1,5 @@
 .container {
-    margin: 17px 22px 0 18px;
+    max-width: 1920px;
+    padding: 17px 22px 0 18px;
+    margin: 0 auto;
 }

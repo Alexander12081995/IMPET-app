@@ -1,0 +1,38 @@
+.container {
+    max-width: 1880px;
+    margin: 40px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textBlock {
+    padding: 23px 260px 81px 47px;
+    border-radius: 50px;
+    background: #1B1B1B;
+}
+
+.title {
+    color: #E2E2E2;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.text {
+    margin-top: 133px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 39px;
+}
+
+.imgBlock {
+    margin-top: 37px;
+    padding: 83px 39px 84px 47px;
+    border-radius: 50px;
+    background: #CFF928;
+}
+
+.img {
+    margin-left: 24px;
+}
+

@@ -1,0 +1,89 @@
+.container {
+    max-width: 1880px;
+    margin: 40px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.leftBlock {
+    margin-right: 72px;
+    padding: 70px 105px 83px 46px;
+    border-radius: 50px;
+    background: #1B1B1B;
+}
+
+.title {
+    color: #E2E2E2;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.textJun {
+    margin-top: 96px;
+    max-width: 700px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.textMentor {
+    margin-top: 108px;
+    max-width: 727px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.button {
+    margin: 35px 0 0 49px;
+    max-width: 700px;
+    padding: 28px 127px;
+    border-radius: 50px;
+    background: #CFF928;
+
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.developersBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.developer {
+    padding: 42px 52px;
+    width: 910px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #CFF928;
+}
+
+.number {
+    padding: 35px 30px;
+    margin-right: 33px;
+    border-radius: 40px;
+    background: #1B1B1B;
+    color: #CFF928;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.titleDev {
+    width: 690px;
+    color: #000;
+    font-size: 48px;
+    font-weight: 400;
+    border-bottom: 1px solid #000;
+}
+
+.text {
+    color: #000;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 39.5px; 
+}

@@ -1,0 +1,30 @@
+.container {
+    margin: 40px auto 0;
+    max-width: 1880px;
+    padding: 35px 70px 114px 47px;
+    border-radius: 50px;
+    background: #1B1B1B;
+}
+
+.blockImg {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.title {
+    color: #E2E2E2;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.img {
+    margin-right: 46px;
+}
+
+.text {
+    margin-top: 84px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 400;
+}

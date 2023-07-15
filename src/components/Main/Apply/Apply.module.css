@@ -14,7 +14,14 @@
     font-size: 32px;
     font-weight: 400;
 }
-
+.text {
+    max-width: 708px;
+    margin-top: 55px;
+    color: #FFF;
+    font-family: Onest, sans-serif;
+    font-size: 64px;
+    line-height: 80px;
+}
 .blockImg {
     display: flex;
     justify-content: space-between;
@@ -22,13 +29,6 @@
     gap: 70px;
     padding: 93px 0 93px;
 }
-
-.text {
-    margin-top: 52px;
-    color: #FFF;
-    font-family: Onest, sans-serif;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.blockImg img {
+    width: 100%;
 }

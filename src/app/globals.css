@@ -16,3 +16,6 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+body {
+  min-width: 1240px;
+}

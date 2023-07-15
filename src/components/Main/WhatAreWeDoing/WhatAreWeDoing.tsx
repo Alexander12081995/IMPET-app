@@ -18,11 +18,20 @@ export const WhatAreWeDoing = () => {
 
             <div className={css.leftBlock}>
                 <h2 className={css.title}>ЧТО МЫ ДЕЛАЕМ?</h2>
-                <p className={css.textJun}>JUNIOR СПЕЦИАЛИСТАМ МЫ ПОМОГАЕМ НАЧАТЬ ПУТЬ В IT, ПОЛУЧИТЬ ОПЫТ НА РЕАЛЬНОМ ПРОЕКТЕ.</p>
-                <button className={css.button}>УЧАСТВОВАТЬ КАК JUNIOR</button>
-
-                <p  className={css.textMentor}>ОПЫТНЫМ СПЕЦИАЛИСТАМ МЫ ДАЕМ ВОЗМОЖНОСТЬ ПОЛУЧИТЬ ОПЫТ МЕНТОРИНГА, ПОДЕЛИТЬСЯ ЭКСПЕРТИЗОЙ И РАЗВИВАТЬ СВОИ КОМПЕТЕНЦИИ.</p>
-                <button className={css.button}>УЧАСТВОВАТЬ КАК МЕНТОР</button>
+                <div className={css.wrapperInvite}>
+                    <div className={css.blockInvite}>
+                        <p className={css.textJun}>JUNIOR СПЕЦИАЛИСТАМ МЫ ПОМОГАЕМ НАЧАТЬ ПУТЬ В IT, ПОЛУЧИТЬ ОПЫТ НА РЕАЛЬНОМ ПРОЕКТЕ.</p>
+                        <div className={css.btn}>
+                            <button className={css.button}>УЧАСТВОВАТЬ КАК JUNIOR</button>
+                        </div>
+                    </div>
+                    <div className={css.blockInvite}>
+                        <p className={css.textMentor}>ОПЫТНЫМ СПЕЦИАЛИСТАМ МЫ ДАЕМ ВОЗМОЖНОСТЬ ПОЛУЧИТЬ ОПЫТ МЕНТОРИНГА, ПОДЕЛИТЬСЯ ЭКСПЕРТИЗОЙ И РАЗВИВАТЬ СВОИ КОМПЕТЕНЦИИ.</p>
+                        <div className={css.btn}>
+                             <button className={css.button}>УЧАСТВОВАТЬ КАК МЕНТОР</button>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div>

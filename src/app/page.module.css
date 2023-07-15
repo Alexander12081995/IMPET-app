@@ -1,5 +1,14 @@
 .container {
     max-width: 1920px;
+    display: flex;
+    flex-direction: column;
     padding: 17px 22px 0 18px;
     margin: 0 auto;
+    gap: 39px;
+}
+@media (max-width: 1670px) {
+    .container {
+        padding: 31px 31px 0 31px;
+        gap: 29px;
+    }
 }

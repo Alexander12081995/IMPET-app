@@ -1,0 +1,56 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 45px;
+    border-radius: 50px;
+    background: #CFF928;
+}
+
+.title {
+    color: #141414;
+    font-family: Onest, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.blockContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 41px;
+    margin: 150px 0 180px;
+}
+.mail {
+    color: #000;
+    font-family: Onest, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.blockIcon {
+    max-width: 758px;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.btn {
+    display: flex;
+    padding: 23px 275px;
+    align-items: center;
+    gap: 13px;
+    border-radius: 50px;
+    border: 1px solid #000;
+    background: transparent;
+}
+.textBtn {
+    color: #000;
+    font-family: Onest, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+}

@@ -12,7 +12,7 @@
     padding-bottom: 23px;
 }
 .btnArrow {
-    padding: 20px 30px;
+    padding: 15px 27px;
     border-radius: 40px;
     background: #CFF928;
 }
@@ -22,12 +22,12 @@
     background: #CFF928;
 }
 .content {
-    height: 230px;
     display: flex;
     justify-content: space-between;
-    padding-top: 35px;
+
 }
 .title {
+    padding: 35px 0;
     color: #fff;
     font-family: Onest, sans-serif;
     font-size: 64px;
@@ -42,5 +42,31 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
-    line-height: 39.5px; /* 164.583% */
+    line-height: 40px;
+    padding: 22px 0;
+}
+@media (max-width: 1670px) {
+    .wrapper {
+        padding: 17px 45px 33px;
+        border-radius: 32px;
+    }
+    .blockArrow {
+        padding-bottom: 14px;
+    }
+    .btnArrow {
+        padding: 9px 17px;
+    }
+    .btnArrow img {
+        max-width: 160px;
+    }
+    .title {
+        padding: 22px 0;
+        font-size: 42px;
+    }
+    .text {
+        padding: 22px 0;
+        max-width: 527px;
+        font-size: 16px;
+        line-height: 26px;
+    }
 }

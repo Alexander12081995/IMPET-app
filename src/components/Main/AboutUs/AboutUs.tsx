@@ -1,17 +1,23 @@
 "use client"
 
-import Image from "next/image";
 import css from "./AboutUs.module.css";
 
 export const AboutUs = () => {
-    return(
-        <div className={css.container}>
+    return (
+        <div className={css.wrapper}>
 
-            <div className={css.blockImg}>
-                <h2 className={css.title}>О НАС</h2>
-                <div>
-                    <Image src={"/img/Mentoring.png"} alt="mentoring" width={439} height={718} className={css.img}/>
-                    <Image src={"/img/IT.png"} alt="IT" width={439} height={718}/>
+            <div className={css.container}>
+                <div className={css.blockAbout}>
+                    <h2 className={css.title}>О НАС</h2>
+                </div>
+
+                <div className={css.blockImg}>
+                    <div>
+                        <img src={"/img/Mentoring.png"} alt="mentoring"/>
+                    </div>
+                    <div>
+                        <img src={"/img/IT.png"} alt="IT"/>
+                    </div>
                 </div>
             </div>
 

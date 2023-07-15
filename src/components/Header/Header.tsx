@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image";
 import css from "./Header.module.css";
 import Link from "next/link";
 
@@ -17,12 +16,11 @@ export const Header = () => {
 
             <div className={css.leftBlock}>
                 <div className={css.groupLogo}>
-                    <Image src={"/img/logo.svg"} alt="logo" width={199} height={124}/>
+                    <img src={"/img/logo.svg"} alt="logo"/>
                     <button className={css.button}>ЗАПИСАТЬСЯ</button>
                 </div>
-                <div className={css.text}>ТВОРИ УЧИСЬ СОЗДАВАЙ</div>
+                <p className={css.title}>ТВОРИ УЧИСЬ СОЗДАВАЙ</p>
             </div>
-
             <div className={css.rightBlock}>
                 <ul className={css.groupNav}>
                     {navigation.map((item, index) => (
@@ -31,9 +29,10 @@ export const Header = () => {
                         </li>
                     ))}
                 </ul>
-                    <Image src={"/img/headerImg.png"} width={930} height={848} alt="img" className={css.img}/>
+                <div className={css.img}>
+                    <img src={"/img/headerImg.png"} alt="img"/>
+                </div>
             </div>
-
         </div>
     )
 }

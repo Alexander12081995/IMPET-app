@@ -1,6 +1,4 @@
 .container {
-    max-width: 1880px;
-    margin: 40px auto 0;
     display: flex;
     justify-content: space-between;
 }
@@ -35,4 +33,3 @@
 .img {
     margin-left: 24px;
 }
-

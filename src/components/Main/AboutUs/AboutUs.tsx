@@ -1,11 +1,12 @@
 "use client"
 
 import Image from "next/image";
-import css from "./aboutUs.module.css";
+import css from "./AboutUs.module.css";
 
 export const AboutUs = () => {
     return(
         <div className={css.container}>
+
             <div className={css.blockImg}>
                 <h2 className={css.title}>О НАС</h2>
                 <div>

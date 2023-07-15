@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import css from "./header.module.css";
+import css from "./Header.module.css";
 import Link from "next/link";
 
 const navigation = [

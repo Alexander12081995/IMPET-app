@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import css from "./counter.module.css";
+import css from "./Counter.module.css";
 
 export const Counter = () => {
     return(

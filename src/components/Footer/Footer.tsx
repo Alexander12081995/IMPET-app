@@ -1,13 +1,12 @@
 "use client"
 
 import css from "./Footer.module.css";
-import Image from "next/image";
 
 export const Footer = () => {
     return (
         <div className={css.wrapper}>
             <div className={css.blockLeft}>
-                <Image src={"/img/LogoGreen.svg"} alt="logo" width={199} height={124}/>
+                <img className={css.logo} src={"/img/LogoGreen.svg"} alt="logo"/>
                 <div className={css.politicText}>
                     <p>@2023 IMPET </p>
                     <p> Политика конфидециальности</p>

@@ -75,3 +75,11 @@
         gap: 32px;
     }
 }
+@media (max-width: 1275px) {
+    .contentText {
+        font-size: 46px;
+    }
+    .text {
+        line-height: 24px;
+    }
+}

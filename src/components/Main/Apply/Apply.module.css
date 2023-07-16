@@ -15,7 +15,6 @@
     font-weight: 400;
 }
 .text {
-    max-width: 708px;
     margin-top: 55px;
     color: #FFF;
     font-family: Onest, sans-serif;
@@ -31,4 +30,37 @@
 }
 .blockImg img {
     width: 100%;
+}
+
+@media (max-width: 1670px){
+    .wrapper {
+        padding: 22px 25px;
+        border-radius: 32px;
+    }
+
+    .blockContent {
+        max-width: 458px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+    .text {
+        margin-top: 34px;
+        font-size: 42px;
+        line-height: 1.29em;
+    }
+    .blockImg {
+        max-width: 661px;
+        gap: 45px;
+        padding: 60px 0 60px;
+    }
+    .blockImg img {
+        width: 100%;
+    }
+}
+@media (max-width: 1275px) {
+    .text{
+        font-size: 41px;
+    }
 }

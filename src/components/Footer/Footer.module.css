@@ -95,3 +95,80 @@
     font-weight: 300;
     line-height: 40px;
 }
+@media (max-width: 1670px) {
+    .wrapper {
+        padding: 61px 43px 93px 30px;
+        border-radius: 32px 32px 0 0;
+    }
+    .logo {
+        max-width: 128px;
+    }
+    .politicText {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .blockRight {
+        max-width: 584px;
+    }
+    .title {
+        font-size: 42px;
+        padding-bottom: 24px;
+    }
+    .text {
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .question {
+        max-width: 420px;
+    }
+    .form {
+        gap: 30px;
+    }
+    .blockForm {
+        max-width: 489px;
+        gap: 12px;
+        padding-top: 25px;
+    }
+    .textInput {
+        font-size: 24px;
+    }
+    .input {
+        height: 27px;
+    }
+    .input::placeholder {
+        font-size: 16px;
+        line-height: 25px;
+        padding-left: 13px;
+    }
+    .btn {
+        padding: 8px 0;
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+@media (max-width: 1275px) {
+    .logo {
+        max-width: 124px;
+    }
+    .blockRight {
+        max-width: 565px;
+    }
+    .title{
+        font-size: 41px;
+    }
+    .blockForm {
+        max-width: 473px;
+    }
+    .text, .btn {
+        line-height: 24px;
+    }
+    .text {
+        padding-right: 40px;
+    }
+    .btn img {
+        height: 31px;
+    }
+    .form {
+        gap: 0;
+    }
+}

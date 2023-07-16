@@ -6,19 +6,19 @@ import Link from "next/link";
 const navigation = [
     {
         text: "О НАС",
-        href: "#aboutUs",
+        href: "/#about-us",
     },
     {
         text: "ЧТО МЫ ДЕЛАЕМ",
-        href: "#whatDoing",
+        href: "/#what-doing",
     },
     {
         text: "ТЕХНОЛОГИИ",
-        href: "#technologie",
+        href: "/#technologie",
     },
     {
         text: "СКОЛЬКО НАС",
-        href: "#counter",
+        href: "/#counter",
     },
 ]
 
@@ -37,7 +37,7 @@ export const Header = () => {
                 <ul className={css.groupNav}>
                     {navigation.map((item, index) => (
                         <li key={index} className={css.nav}>
-                                <Link href={"/"} className={css.link}>{item.text}</Link>
+                                <Link href={item.href} className={css.link}>{item.text}</Link>
                         </li>
                     ))}
                 </ul>

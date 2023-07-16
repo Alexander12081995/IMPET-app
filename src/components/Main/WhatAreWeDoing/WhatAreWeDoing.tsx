@@ -14,7 +14,7 @@ const developers = [
 
 export const WhatAreWeDoing = () => {
     return(
-        <div className={css.container}>
+        <div className={css.container} id="what-doing">
 
             <div className={css.leftBlock}>
                 <h2 className={css.title}>ЧТО МЫ ДЕЛАЕМ</h2>

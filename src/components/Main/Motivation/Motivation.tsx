@@ -4,7 +4,7 @@ import css from "./Motivation.module.css";
 
 export const Motivation = () => {
     return(
-        <div className={css.container}>
+        <div className={css.container}  id="technologie">
             <div className={css.blockContent}>
                 <h2 className={css.title}>ТЕХНОЛОГИИ</h2>
                 <div>

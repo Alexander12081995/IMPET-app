@@ -4,7 +4,7 @@ import css from "./Counter.module.css";
 
 export const Counter = () => {
     return (
-        <div className={css.container}>
+        <div className={css.container} id="counter">
 
             <div className={css.leftBlock}>
                 <div className={css.textBlock}>

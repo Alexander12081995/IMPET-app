@@ -4,7 +4,7 @@ import css from "./AboutUs.module.css";
 
 export const AboutUs = () => {
     return (
-        <div className={css.wrapper}>
+        <div className={css.wrapper} id="about-us">
 
             <div className={css.container}>
                 <div className={css.blockAbout}>

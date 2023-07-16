@@ -158,3 +158,11 @@
         line-height: 26px;
     }
 }
+@media (max-width: 1275px) {
+    .textJun, .textMentor {
+        font-size: 41px;
+    }
+    .titleDev {
+        font-size: 31px;
+    }
+}

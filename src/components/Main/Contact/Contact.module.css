@@ -54,3 +54,54 @@
     font-weight: 300;
     line-height: 40px;
 }
+@media (max-width: 1670px) {
+    .wrapper {
+        padding: 22px 30px;
+        border-radius: 32px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+    .blockContact {
+        gap: 25px;
+        margin: 99px 0 117px;
+    }
+    .mail {
+        font-size: 42px;
+    }
+    .blockIcon {
+        max-width: 489px;
+        gap: 25px;
+    }
+
+    .btn {
+        padding: 15px 168px;
+        gap: 13px;
+    }
+    .btn img {
+        height: 32px;
+    }
+    .textBtn {
+        font-size: 24px;
+        line-height: 25px;
+    }
+}
+@media (max-width: 1275px) {
+    .text{
+        font-size: 41px;
+    }
+    .textBtn {
+        line-height: 24px;
+    }
+    .blockIcon {
+        gap: 17px;
+    }
+    .btn img {
+        height: 31px;
+    }
+    .btn {
+        padding: 15px 159px;
+        gap: 10px;
+    }
+}

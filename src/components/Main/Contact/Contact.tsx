@@ -7,7 +7,7 @@ export const Contact = () => {
         <div className={css.wrapper}>
             <h2 className={css.title}>КОНТАКТЫ</h2>
             <div className={css.blockContact}>
-                <a className={css.mail} href="">impet@mail.com</a>
+                <a className={css.mail} href="">impet.space@gmail.com</a>
                 <div className={css.blockIcon}>
                     <button className={css.btn}>
                         <img src="/icon/telegram.svg" alt="Telegram"/>

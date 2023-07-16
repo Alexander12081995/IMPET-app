@@ -9,9 +9,10 @@ export const AboutUs = () => {
             <div className={css.container}>
                 <div className={css.blockAbout}>
                     <h2 className={css.title}>О НАС</h2>
+                    <p className={css.text}>МЫ - ГРУППА IT-ЭНТУЗИАСТОВ, объединённых целью дать практические знания junior-специалистам и ускорить получение ими первого оффера</p>
                 </div>
 
-                <div className={css.blockImg}>
+                <div className={css.blockImg} id={"aboutUs"}>
                     <div>
                         <img src={"/img/Mentoring.png"} alt="mentoring"/>
                     </div>
@@ -21,7 +22,6 @@ export const AboutUs = () => {
                 </div>
             </div>
 
-            <p className={css.text}>МЫ - ГРУППА IT-ЭНТУЗИАСТОВ</p>
         </div>
     )
 }

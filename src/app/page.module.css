@@ -12,3 +12,9 @@
         gap: 29px;
     }
 }
+@media (max-width: 1024px) {
+    .container {
+        padding: 17px 15px 0 15px;
+        gap: 10px;
+    }
+}

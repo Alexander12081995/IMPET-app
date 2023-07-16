@@ -17,10 +17,10 @@ export const WhatAreWeDoing = () => {
         <div className={css.container}>
 
             <div className={css.leftBlock}>
-                <h2 className={css.title}>ЧТО МЫ ДЕЛАЕМ?</h2>
+                <h2 className={css.title}>ЧТО МЫ ДЕЛАЕМ</h2>
                 <div className={css.wrapperInvite}>
                     <div className={css.blockInvite}>
-                        <p className={css.textJun}>JUNIOR СПЕЦИАЛИСТАМ МЫ ПОМОГАЕМ НАЧАТЬ ПУТЬ В IT, ПОЛУЧИТЬ ОПЫТ НА РЕАЛЬНОМ ПРОЕКТЕ.</p>
+                        <p className={css.textJun}>JUNIOR-СПЕЦИАЛИСТАМ ПОМОГАЕМ ПОЛУЧИТЬ ОПЫТ НА РЕАЛЬНОМ ПРОЕКТЕ ПОД РУКОВОДСТВОМ МЕНТОРОВ, ЧТОБЫ УСКОРИТЬ ПОЛУЧЕНИЕ ПЕРВОГО ОФФЕРА</p>
                         <div className={css.btn}>
                             <button className={css.button}>УЧАСТВОВАТЬ КАК JUNIOR</button>
                         </div>
